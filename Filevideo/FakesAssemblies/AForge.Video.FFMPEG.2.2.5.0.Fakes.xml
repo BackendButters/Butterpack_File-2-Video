@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AForge.Video.FFMPEG.2.2.5.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader">
+            <summary>Shim-Typ von AForge.Video.FFMPEG.VideoFileReader</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.#ctor(AForge.Video.FFMPEG.VideoFileReader)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.Bind(System.IDisposable)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.CheckIfDisposed">
+            <summary>Legt die shim von VideoFileReader.CheckIfDisposed() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.CheckIfVideoFileIsOpen">
+            <summary>Legt die shim von VideoFileReader.CheckIfVideoFileIsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.Close">
+            <summary>Legt die shim von VideoFileReader.Close() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.CodecNameGet">
+            <summary>Legt die shim von VideoFileReader.get_CodecName() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.Constructor">
+            <summary>Legt die shim von VideoFileReader.VideoFileReader() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.DecodeVideoFrame">
+            <summary>Legt die shim von VideoFileReader.DecodeVideoFrame() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.Dispose">
+            <summary>Legt die shim von VideoFileReader.Dispose() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.DisposeBoolean">
+            <summary>Legt die shim von VideoFileReader.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.FrameCountGet">
+            <summary>Legt die shim von VideoFileReader.get_FrameCount() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.FrameRateGet">
+            <summary>Legt die shim von VideoFileReader.get_FrameRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.HeightGet">
+            <summary>Legt die shim von VideoFileReader.get_Height() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.IsOpenGet">
+            <summary>Legt die shim von VideoFileReader.get_IsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.OpenString">
+            <summary>Legt die shim von VideoFileReader.Open(String fileName) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.ReadVideoFrame">
+            <summary>Legt die shim von VideoFileReader.ReadVideoFrame() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.WidthGet">
+            <summary>Legt die shim von VideoFileReader.get_Width() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader._VideoFileReader">
+            <summary>Legt die shim von VideoFileReader.!VideoFileReader() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader._VideoFileReader01">
+            <summary>Legt die shim von VideoFileReader.~VideoFileReader() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.CheckIfDisposed">
+            <summary>Legt die shim von VideoFileReader.CheckIfDisposed() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.CheckIfVideoFileIsOpen">
+            <summary>Legt die shim von VideoFileReader.CheckIfVideoFileIsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.Close">
+            <summary>Legt die shim von VideoFileReader.Close() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.CodecNameGet">
+            <summary>Legt die shim von VideoFileReader.get_CodecName() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.DecodeVideoFrame">
+            <summary>Legt die shim von VideoFileReader.DecodeVideoFrame() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.Dispose">
+            <summary>Legt die shim von VideoFileReader.Dispose() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.DisposeBoolean">
+            <summary>Legt die shim von VideoFileReader.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.FrameCountGet">
+            <summary>Legt die shim von VideoFileReader.get_FrameCount() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.FrameRateGet">
+            <summary>Legt die shim von VideoFileReader.get_FrameRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.HeightGet">
+            <summary>Legt die shim von VideoFileReader.get_Height() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.IsOpenGet">
+            <summary>Legt die shim von VideoFileReader.get_IsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.OpenString">
+            <summary>Legt die shim von VideoFileReader.Open(String fileName) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.ReadVideoFrame">
+            <summary>Legt die shim von VideoFileReader.ReadVideoFrame() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances.WidthGet">
+            <summary>Legt die shim von VideoFileReader.get_Width() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances._VideoFileReader">
+            <summary>Legt die shim von VideoFileReader.!VideoFileReader() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileReader.AllInstances._VideoFileReader01">
+            <summary>Legt die shim von VideoFileReader.~VideoFileReader() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource">
+            <summary>Shim-Typ von AForge.Video.FFMPEG.VideoFileSource</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.#ctor(AForge.Video.FFMPEG.VideoFileSource)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.Bind(AForge.Video.IVideoSource)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.BytesReceivedGet">
+            <summary>Legt die shim von VideoFileSource.get_BytesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.ConstructorString">
+            <summary>Legt die shim von VideoFileSource.VideoFileSource(String fileName) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.FrameIntervalFromSourceGet">
+            <summary>Legt die shim von VideoFileSource.get_FrameIntervalFromSource() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.FrameIntervalFromSourceSetBoolean">
+            <summary>Legt die shim von VideoFileSource.set_FrameIntervalFromSource(Boolean fpsFromSource) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.FrameIntervalGet">
+            <summary>Legt die shim von VideoFileSource.get_FrameInterval() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.FrameIntervalSetInt32">
+            <summary>Legt die shim von VideoFileSource.set_FrameInterval(Int32 frameInterval) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.FramesReceivedGet">
+            <summary>Legt die shim von VideoFileSource.get_FramesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.Free">
+            <summary>Legt die shim von VideoFileSource.Free() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.IsRunningGet">
+            <summary>Legt die shim von VideoFileSource.get_IsRunning() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.NewFrameAddNewFrameEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_NewFrame(NewFrameEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.NewFrameRaiseObjectNewFrameEventArgs">
+            <summary>Legt die shim von VideoFileSource.raise_NewFrame(Object value0, NewFrameEventArgs value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.NewFrameRemoveNewFrameEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_NewFrame(NewFrameEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_PlayingFinished(PlayingFinishedEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.PlayingFinishedRaiseObjectReasonToFinishPlaying">
+            <summary>Legt die shim von VideoFileSource.raise_PlayingFinished(Object value0, ReasonToFinishPlaying value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_PlayingFinished(PlayingFinishedEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.SignalToStop">
+            <summary>Legt die shim von VideoFileSource.SignalToStop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.SourceGet">
+            <summary>Legt die shim von VideoFileSource.get_Source() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.SourceSetString">
+            <summary>Legt die shim von VideoFileSource.set_Source(String fileName) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.Start">
+            <summary>Legt die shim von VideoFileSource.Start() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.Stop">
+            <summary>Legt die shim von VideoFileSource.Stop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_VideoSourceError(VideoSourceErrorEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.VideoSourceErrorRaiseObjectVideoSourceErrorEventArgs">
+            <summary>Legt die shim von VideoFileSource.raise_VideoSourceError(Object value0, VideoSourceErrorEventArgs value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_VideoSourceError(VideoSourceErrorEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.WaitForStop">
+            <summary>Legt die shim von VideoFileSource.WaitForStop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.WorkerThreadHandler">
+            <summary>Legt die shim von VideoFileSource.WorkerThreadHandler() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.BytesReceivedGet">
+            <summary>Legt die shim von VideoFileSource.get_BytesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.FrameIntervalFromSourceGet">
+            <summary>Legt die shim von VideoFileSource.get_FrameIntervalFromSource() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.FrameIntervalFromSourceSetBoolean">
+            <summary>Legt die shim von VideoFileSource.set_FrameIntervalFromSource(Boolean fpsFromSource) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.FrameIntervalGet">
+            <summary>Legt die shim von VideoFileSource.get_FrameInterval() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.FrameIntervalSetInt32">
+            <summary>Legt die shim von VideoFileSource.set_FrameInterval(Int32 frameInterval) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.FramesReceivedGet">
+            <summary>Legt die shim von VideoFileSource.get_FramesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.Free">
+            <summary>Legt die shim von VideoFileSource.Free() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.IsRunningGet">
+            <summary>Legt die shim von VideoFileSource.get_IsRunning() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.NewFrameAddNewFrameEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_NewFrame(NewFrameEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.NewFrameRaiseObjectNewFrameEventArgs">
+            <summary>Legt die shim von VideoFileSource.raise_NewFrame(Object value0, NewFrameEventArgs value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.NewFrameRemoveNewFrameEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_NewFrame(NewFrameEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_PlayingFinished(PlayingFinishedEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.PlayingFinishedRaiseObjectReasonToFinishPlaying">
+            <summary>Legt die shim von VideoFileSource.raise_PlayingFinished(Object value0, ReasonToFinishPlaying value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_PlayingFinished(PlayingFinishedEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.SignalToStop">
+            <summary>Legt die shim von VideoFileSource.SignalToStop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.SourceGet">
+            <summary>Legt die shim von VideoFileSource.get_Source() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.SourceSetString">
+            <summary>Legt die shim von VideoFileSource.set_Source(String fileName) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.Start">
+            <summary>Legt die shim von VideoFileSource.Start() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.Stop">
+            <summary>Legt die shim von VideoFileSource.Stop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Legt die shim von VideoFileSource.add_VideoSourceError(VideoSourceErrorEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.VideoSourceErrorRaiseObjectVideoSourceErrorEventArgs">
+            <summary>Legt die shim von VideoFileSource.raise_VideoSourceError(Object value0, VideoSourceErrorEventArgs value1) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Legt die shim von VideoFileSource.remove_VideoSourceError(VideoSourceErrorEventHandler value) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.WaitForStop">
+            <summary>Legt die shim von VideoFileSource.WaitForStop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileSource.AllInstances.WorkerThreadHandler">
+            <summary>Legt die shim von VideoFileSource.WorkerThreadHandler() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter">
+            <summary>Shim-Typ von AForge.Video.FFMPEG.VideoFileWriter</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.#ctor(AForge.Video.FFMPEG.VideoFileWriter)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.Bind(System.IDisposable)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.BitRateGet">
+            <summary>Legt die shim von VideoFileWriter.get_BitRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.CheckIfDisposed">
+            <summary>Legt die shim von VideoFileWriter.CheckIfDisposed() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.CheckIfVideoFileIsOpen">
+            <summary>Legt die shim von VideoFileWriter.CheckIfVideoFileIsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.Close">
+            <summary>Legt die shim von VideoFileWriter.Close() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.CodecGet">
+            <summary>Legt die shim von VideoFileWriter.get_Codec() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.Constructor">
+            <summary>Legt die shim von VideoFileWriter.VideoFileWriter() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.Dispose">
+            <summary>Legt die shim von VideoFileWriter.Dispose() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.DisposeBoolean">
+            <summary>Legt die shim von VideoFileWriter.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.FrameRateGet">
+            <summary>Legt die shim von VideoFileWriter.get_FrameRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.HeightGet">
+            <summary>Legt die shim von VideoFileWriter.get_Height() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.IsOpenGet">
+            <summary>Legt die shim von VideoFileWriter.get_IsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.OpenStringInt32Int32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.OpenStringInt32Int32Int32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.OpenStringInt32Int32Int32VideoCodec">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate, VideoCodec codec) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.OpenStringInt32Int32Int32VideoCodecInt32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate, VideoCodec codec, Int32 bitRate) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.WidthGet">
+            <summary>Legt die shim von VideoFileWriter.get_Width() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.WriteVideoFrameBitmap">
+            <summary>Legt die shim von VideoFileWriter.WriteVideoFrame(Bitmap frame) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.WriteVideoFrameBitmapTimeSpan">
+            <summary>Legt die shim von VideoFileWriter.WriteVideoFrame(Bitmap frame, TimeSpan timestamp) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter._VideoFileWriter">
+            <summary>Legt die shim von VideoFileWriter.!VideoFileWriter() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter._VideoFileWriter01">
+            <summary>Legt die shim von VideoFileWriter.~VideoFileWriter() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.BitRateGet">
+            <summary>Legt die shim von VideoFileWriter.get_BitRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.CheckIfDisposed">
+            <summary>Legt die shim von VideoFileWriter.CheckIfDisposed() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.CheckIfVideoFileIsOpen">
+            <summary>Legt die shim von VideoFileWriter.CheckIfVideoFileIsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.Close">
+            <summary>Legt die shim von VideoFileWriter.Close() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.CodecGet">
+            <summary>Legt die shim von VideoFileWriter.get_Codec() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.Dispose">
+            <summary>Legt die shim von VideoFileWriter.Dispose() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.DisposeBoolean">
+            <summary>Legt die shim von VideoFileWriter.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.FrameRateGet">
+            <summary>Legt die shim von VideoFileWriter.get_FrameRate() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.HeightGet">
+            <summary>Legt die shim von VideoFileWriter.get_Height() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.IsOpenGet">
+            <summary>Legt die shim von VideoFileWriter.get_IsOpen() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.OpenStringInt32Int32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.OpenStringInt32Int32Int32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.OpenStringInt32Int32Int32VideoCodec">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate, VideoCodec codec) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.OpenStringInt32Int32Int32VideoCodecInt32">
+            <summary>Legt die shim von VideoFileWriter.Open(String fileName, Int32 width, Int32 height, Int32 frameRate, VideoCodec codec, Int32 bitRate) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.WidthGet">
+            <summary>Legt die shim von VideoFileWriter.get_Width() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.WriteVideoFrameBitmap">
+            <summary>Legt die shim von VideoFileWriter.WriteVideoFrame(Bitmap frame) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances.WriteVideoFrameBitmapTimeSpan">
+            <summary>Legt die shim von VideoFileWriter.WriteVideoFrame(Bitmap frame, TimeSpan timestamp) fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances._VideoFileWriter">
+            <summary>Legt die shim von VideoFileWriter.!VideoFileWriter() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.ShimVideoFileWriter.AllInstances._VideoFileWriter01">
+            <summary>Legt die shim von VideoFileWriter.~VideoFileWriter() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.StubVideoFileReader">
+            <summary>Stub-Typ von AForge.Video.FFMPEG.VideoFileReader</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.Dispose(System.Boolean)">
+            <summary>Legt die stub von VideoFileReader.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.DisposeBoolean">
+            <summary>Legt die stub von VideoFileReader.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubVideoFileReader.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileReader.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.StubVideoFileSource">
+            <summary>Stub-Typ von AForge.Video.FFMPEG.VideoFileSource</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.BytesReceivedGet">
+            <summary>Legt die stub von VideoFileSource.get_BytesReceived() fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.FramesReceivedGet">
+            <summary>Legt die stub von VideoFileSource.get_FramesReceived() fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubVideoFileSource.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.IsRunningGet">
+            <summary>Legt die stub von VideoFileSource.get_IsRunning() fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.SignalToStop">
+            <summary>Legt die stub von VideoFileSource.SignalToStop() fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.SignalToStop01">
+            <summary>Legt die stub von VideoFileSource.SignalToStop() fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.Start">
+            <summary>Legt die stub von VideoFileSource.Start() fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.Start01">
+            <summary>Legt die stub von VideoFileSource.Start() fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.Stop">
+            <summary>Legt die stub von VideoFileSource.Stop() fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.Stop01">
+            <summary>Legt die stub von VideoFileSource.Stop() fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.WaitForStop">
+            <summary>Legt die stub von VideoFileSource.WaitForStop() fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.WaitForStop01">
+            <summary>Legt die stub von VideoFileSource.WaitForStop() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.BytesReceived">
+            <summary>Legt die stub von VideoFileSource.get_BytesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.FramesReceived">
+            <summary>Legt die stub von VideoFileSource.get_FramesReceived() fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileSource.IsRunning">
+            <summary>Legt die stub von VideoFileSource.get_IsRunning() fest.</summary>
+        </member>
+        <member name="T:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter">
+            <summary>Stub-Typ von AForge.Video.FFMPEG.VideoFileWriter</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.Dispose(System.Boolean)">
+            <summary>Legt die stub von VideoFileWriter.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="F:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.DisposeBoolean">
+            <summary>Legt die stub von VideoFileWriter.Dispose(Boolean ) fest.</summary>
+        </member>
+        <member name="M:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubVideoFileWriter.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:AForge.Video.FFMPEG.Fakes.StubVideoFileWriter.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+    </members>
+</doc>
