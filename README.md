@@ -8,3 +8,5 @@ Currently, an image creation of a file is possible with the option to encrypt th
 I started to implement GIF output types but that's not yet done. Also, video creation has to be done, a losless format is necessary. 
 This project uses the AForge and NReco FFMPEG library.
 Built with Microsoft Visual Studio 2013.
+
+Also, check out the [C++ Port!](https://github.com/jpzk/butterpack "C++ Port")
